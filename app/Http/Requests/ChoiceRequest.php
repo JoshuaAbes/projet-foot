@@ -6,23 +6,17 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class ChoiceRequest extends FormRequest
 {
-    /**
-     * Determine if the user is authorized to make this request.
-     */
     public function authorize(): bool
     {
-        return false;
+        return true; // On gérera l'autorisation via middleware
     }
 
-    /**
-     * Get the validation rules that apply to the request.
-     *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
-     */
     public function rules(): array
     {
         return [
-            //
+            'chapter_id' => 'required|exists:chapters,id',
+            'next_chapter_id' => 'required|exists:chapters,id',
+            'text' => 'required|string|max:255'
         ];
     }
 }
