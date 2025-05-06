@@ -1,0 +1,114 @@
+{
+    "chapters": [
+        {
+            "title": "City Stade",
+            "content": "Tu passes tes journées à taper le ballon au quartier. Les gens commencent à te remarquer.",
+            "choices": [
+                { "text": "Participer à un tournoi local", "next_chapter": 2 },
+                { "text": "Continuer à jouer pour le fun", "next_chapter": 14 }
+            ]
+        },
+        {
+            "title": "Club de Quartier",
+            "content": "Un coach t'aborde après le tournoi. Il te propose d'intégrer l'équipe U17 de la ville.",
+            "choices": [
+                { "text": "Accepter l'invitation", "next_chapter": 3 },
+                { "text": "Refuser, rester entre potes", "next_chapter": 13 }
+            ]
+        },
+        {
+            "title": "Finale Régionale",
+            "content": "Tu deviens titulaire. C'est la finale régionale. Les recruteurs sont là.",
+            "choices": [
+                { "text": "Tenter une action solo", "next_chapter": 4 },
+                {
+                    "text": "Jouer collectif et faire une passe décisive",
+                    "next_chapter": 5
+                }
+            ]
+        },
+        {
+            "title": "Choix Grand Club",
+            "content": "Tu as impressionné. Deux clubs pro veulent de toi : l'un est prestigieux, très compétitif.",
+            "choices": [
+                { "text": "Rejoindre le grand club", "next_chapter": 6 }
+            ]
+        },
+        {
+            "title": "Choix Petit Club",
+            "content": "Un club plus modeste mais formateur te propose une place.",
+            "choices": [{ "text": "Choisir le petit club", "next_chapter": 7 }]
+        },
+        {
+            "title": "Banc au Grand Club",
+            "content": "Tu galères à avoir du temps de jeu. Tu doutes.",
+            "choices": [
+                { "text": "Insister et t'entraîner dur", "next_chapter": 8 },
+                { "text": "Demander un prêt", "next_chapter": 9 }
+            ]
+        },
+        {
+            "title": "Titu au Petit Club",
+            "content": "Tu t'imposes, tu deviens capitaine. Les médias parlent de toi.",
+            "choices": [
+                { "text": "Monter en pro rapidement", "next_chapter": 9 },
+                { "text": "Rester en jeunes", "next_chapter": 8 }
+            ]
+        },
+        {
+            "title": "Match Pro",
+            "content": "Tu entres en jeu à la 80e, tu marques à la dernière minute !",
+            "choices": [
+                {
+                    "text": "Accorder une interview provoc'",
+                    "next_chapter": 10
+                },
+                { "text": "Rester humble", "next_chapter": 10 }
+            ]
+        },
+        {
+            "title": "Sélection Nationale",
+            "content": "Tu es convoqué pour la Coupe du Monde ! Tu entres en 1/4 de finale.",
+            "choices": [
+                { "text": "Tenter une panenka", "next_chapter": 10 },
+                { "text": "Vise la lucarne", "next_chapter": 10 }
+            ]
+        },
+        {
+            "title": "Finale Coupe du Monde",
+            "content": "89e minute. Tu es seul face au gardien. Le public retient son souffle.",
+            "choices": [
+                { "text": "Tenter ta chance seul", "next_chapter": 15 },
+                { "text": "Faire la passe au 2e attaquant", "next_chapter": 12 }
+            ]
+        },
+        {
+            "title": "Discours de Remise",
+            "content": "Tu es sur scène. Les projecteurs sont braqués sur toi.",
+            "choices": [
+                { "text": "Se donner tout le mérite", "next_chapter": 11 },
+                { "text": "Remercier ceux qui t'ont aidé", "next_chapter": 12 }
+            ]
+        },
+        {
+            "title": "Perdu Ballon d'Or",
+            "content": "Ton arrogance te coûte le trophée. Tu es applaudi timidement. La légende ne s'écrit pas."
+        },
+        {
+            "title": "Ballon d'Or",
+            "content": "Grâce à ta constance, ta discipline et ton mental, tu es élu Ballon d'Or. Une légende est née 🌟"
+        },
+        {
+            "title": "Fin : Jamais lancé",
+            "content": "Tu n'as jamais saisi ta chance. Ta carrière n'a jamais décollé."
+        },
+        {
+            "title": "Fin : Resté amateur",
+            "content": "Tu es resté dans le quartier, à jouer avec les potes. Rien de plus."
+        },
+        {
+            "title": "Fin : Échec en finale",
+            "content": "Tu as voulu briller seul... et tu as échoué."
+        }
+    ]
+}
